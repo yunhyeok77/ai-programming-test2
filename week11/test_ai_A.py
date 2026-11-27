@@ -1,6 +1,6 @@
 import pytest
 
-from load_scores import load_scores
+from week11.load_scores import load_scores
 
 
 def _write_csv(tmp_path, contents):

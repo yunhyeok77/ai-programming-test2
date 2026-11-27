@@ -1,7 +1,7 @@
 import pytest
 
 try:
-	from load_scores import process_score_file
+	from week11.load_scores import process_score_file
 except ImportError:
 	def process_score_file(path):
 		records = []
